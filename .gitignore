@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training and logging outputs
+runs/
+wandb/
+*.log
+events.out.tfevents*
+summary.json
+*-summary.json
+
+# Datasets and downloaded archives
+datasets/
+data/VisDrone*/
+dust_yolo/data/VisDrone*/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Paper drafts and local notes
+*.pdf
+Title*.pdf
+
+# Model and deployment artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.plan
+*.trt
+*.wts
+deploy/deepstream/weights/*
+!deploy/deepstream/weights/.gitkeep
+
+# Media and temporary benchmark artifacts
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.raw
+*.cache
+
+# Local temporary files
+tmp/
+temp/
+*.bak
+*.tmp

@@ -51,19 +51,6 @@ See [`docs/pruning_quantization.md`](docs/pruning_quantization.md) for full trai
 See [`deploy/deepstream/README.md`](deploy/deepstream/README.md) for ONNX export, custom parser compilation, DeepStream configuration, and runtime commands. A shorter deployment overview is available in [`docs/deepstream_deployment.md`](docs/deepstream_deployment.md).
 
 
-## Citation
-
-```bibtex
-@article{lin2026dustyolo,
-  title={DUST-YOLO: A Deployable UAV Swin Transformer YOLO with Multi-Dimensional Pruning and Mixed-Precision Quantization for End-to-End Video Object Detection},
-  author={Lin, Gongxun and Jiang, Jincheng and Cai, Jiaheng and Luo, Xingjian and Wang, Zihao and Sun, Hao and Pu, Ziyuan},
-  journal={Electronics},
-  year={2026}
-}
-```
-
-The final DOI, volume, issue, and page numbers will be updated after publication.
-
 ## Acknowledgements
 
 This project builds on YOLOv5, NVIDIA PyTorch Quantization, ONNX, TensorRT, DeepStream, and DeepStream-Yolo. We thank the maintainers of these projects for making their code and tooling available to the research community.

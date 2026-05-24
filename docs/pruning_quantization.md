@@ -18,7 +18,7 @@ QAT additionally requires NVIDIA PyTorch Quantization. Install the version that 
 
 Early internal notes used older script names. The public repository uses the following actual files:
 
-| Internal note name | Public script |
+| name | Path |
 |---|---|
 | `prune_stage1.py` | `dust_yolo/lightweight/prune_stage1.py` |
 | `prune_stage2.py` | `dust_yolo/lightweight/prune_stage2.py` |

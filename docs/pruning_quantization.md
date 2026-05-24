@@ -20,9 +20,9 @@ Early internal notes used older script names. The public repository uses the fol
 
 | Internal note name | Public script |
 |---|---|
-| `prune.py` | `dust_yolo/lightweight/prune_stage1.py` |
-| `prune_v6.py` | `dust_yolo/lightweight/prune_stage2.py` |
-| `prune_v7d.py` | `dust_yolo/lightweight/prune_stage3.py` |
+| `prune_stage1.py` | `dust_yolo/lightweight/prune_stage1.py` |
+| `prune_stage2.py` | `dust_yolo/lightweight/prune_stage2.py` |
+| `prune_stage3.py` | `dust_yolo/lightweight/prune_stage3.py` |
 | `train_pruned.py` | `dust_yolo/lightweight/train_pruned.py` |
 | `qat_pruned.py` | `dust_yolo/lightweight/qat_pruned.py` |
 
